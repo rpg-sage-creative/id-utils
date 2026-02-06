@@ -1,0 +1,6 @@
+import type { Snowflake } from "@rsc-utils/snowflake-utils";
+import type { Optional } from "@rsc-utils/type-utils";
+import type { UUID } from "@rsc-utils/uuid-utils";
+/** Compresses a Snowflake or UUID into a smaller string by changing the radix of the number. */
+export declare function compressId(value: Snowflake | UUID, radix?: number): string;
+export declare function compressId(value: Optional<Snowflake | UUID>, radix?: number): string | undefined;
