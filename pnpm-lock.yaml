@@ -9,18 +9,18 @@ importers:
   .:
     dependencies:
       '@rsc-utils/snowflake-utils':
-        specifier: github:rpg-sage-creative/snowflake-utils#semver:^1.1.0
-        version: '@rpg-sage-creative/snowflake-utils@https://codeload.github.com/rpg-sage-creative/snowflake-utils/tar.gz/ff6354df8219a872bb672c51b090ec12651f240b'
+        specifier: github:rpg-sage-creative/snowflake-utils#semver:^1.2.0
+        version: '@rpg-sage-creative/snowflake-utils@https://codeload.github.com/rpg-sage-creative/snowflake-utils/tar.gz/eb4f99a302eb29eb671428f16026e2f25a1993bc'
       '@rsc-utils/type-utils':
-        specifier: github:rpg-sage-creative/type-utils#semver:^1.1.0
-        version: '@rpg-sage-creative/type-utils@https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/320d4c2f18ed43e6e53a8092d8e8715dcd6bbc70'
+        specifier: github:rpg-sage-creative/type-utils#semver:^1.2.0
+        version: '@rpg-sage-creative/type-utils@https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/e3c915cecb5b7fdc792ac026435c540f555fadca'
       '@rsc-utils/uuid-utils':
-        specifier: github:rpg-sage-creative/uuid-utils#semver:^1.1.0
-        version: '@rpg-sage-creative/uuid-utils@https://codeload.github.com/rpg-sage-creative/uuid-utils/tar.gz/99060186aafe1d69ce5fc563b8d47ba00e9eb2e6'
+        specifier: github:rpg-sage-creative/uuid-utils#semver:^1.2.0
+        version: '@rpg-sage-creative/uuid-utils@https://codeload.github.com/rpg-sage-creative/uuid-utils/tar.gz/cc8b1c10283dd594cf30e975ed76f512f293ab32'
     devDependencies:
       '@rsc-utils/dev-scripts':
         specifier: github:rpg-sage-creative/dev-scripts#semver:^1.3.1
-        version: '@rpg-sage-creative/dev-scripts@https://codeload.github.com/rpg-sage-creative/dev-scripts/tar.gz/21b00c21ef2b591fa125f2460a9122eab7c4e9dc'
+        version: '@rpg-sage-creative/dev-scripts@https://codeload.github.com/rpg-sage-creative/dev-scripts/tar.gz/21ba74dcfd4b8358cc919c534a0b2145b09f1297'
       '@rsc-utils/template-literal-utils':
         specifier: github:rpg-sage-creative/template-literal-utils#semver:^1.2.0
         version: '@rpg-sage-creative/template-literal-utils@https://codeload.github.com/rpg-sage-creative/template-literal-utils/tar.gz/5532b51ff83a9c8c0b38600e0e721a37335b7d50'
@@ -28,11 +28,11 @@ importers:
         specifier: ^30.0.0
         version: 30.0.0
       '@types/node':
-        specifier: ^24.10.4
-        version: 24.10.13
+        specifier: ^24.11.0
+        version: 24.11.0
       jest:
         specifier: ^30.2.0
-        version: 30.2.0(@types/node@24.10.13)
+        version: 30.2.0(@types/node@24.11.0)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -334,26 +334,26 @@ packages:
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@rpg-sage-creative/dev-scripts@https://codeload.github.com/rpg-sage-creative/dev-scripts/tar.gz/21b00c21ef2b591fa125f2460a9122eab7c4e9dc':
-    resolution: {tarball: https://codeload.github.com/rpg-sage-creative/dev-scripts/tar.gz/21b00c21ef2b591fa125f2460a9122eab7c4e9dc}
-    version: 1.3.1
+  '@rpg-sage-creative/dev-scripts@https://codeload.github.com/rpg-sage-creative/dev-scripts/tar.gz/21ba74dcfd4b8358cc919c534a0b2145b09f1297':
+    resolution: {tarball: https://codeload.github.com/rpg-sage-creative/dev-scripts/tar.gz/21ba74dcfd4b8358cc919c534a0b2145b09f1297}
+    version: 1.4.2
     hasBin: true
 
-  '@rpg-sage-creative/snowflake-utils@https://codeload.github.com/rpg-sage-creative/snowflake-utils/tar.gz/ff6354df8219a872bb672c51b090ec12651f240b':
-    resolution: {tarball: https://codeload.github.com/rpg-sage-creative/snowflake-utils/tar.gz/ff6354df8219a872bb672c51b090ec12651f240b}
-    version: 1.1.0
+  '@rpg-sage-creative/snowflake-utils@https://codeload.github.com/rpg-sage-creative/snowflake-utils/tar.gz/eb4f99a302eb29eb671428f16026e2f25a1993bc':
+    resolution: {tarball: https://codeload.github.com/rpg-sage-creative/snowflake-utils/tar.gz/eb4f99a302eb29eb671428f16026e2f25a1993bc}
+    version: 1.2.0
 
   '@rpg-sage-creative/template-literal-utils@https://codeload.github.com/rpg-sage-creative/template-literal-utils/tar.gz/5532b51ff83a9c8c0b38600e0e721a37335b7d50':
     resolution: {tarball: https://codeload.github.com/rpg-sage-creative/template-literal-utils/tar.gz/5532b51ff83a9c8c0b38600e0e721a37335b7d50}
     version: 1.2.0
 
-  '@rpg-sage-creative/type-utils@https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/320d4c2f18ed43e6e53a8092d8e8715dcd6bbc70':
-    resolution: {tarball: https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/320d4c2f18ed43e6e53a8092d8e8715dcd6bbc70}
-    version: 1.1.0
+  '@rpg-sage-creative/type-utils@https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/e3c915cecb5b7fdc792ac026435c540f555fadca':
+    resolution: {tarball: https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/e3c915cecb5b7fdc792ac026435c540f555fadca}
+    version: 1.2.0
 
-  '@rpg-sage-creative/uuid-utils@https://codeload.github.com/rpg-sage-creative/uuid-utils/tar.gz/99060186aafe1d69ce5fc563b8d47ba00e9eb2e6':
-    resolution: {tarball: https://codeload.github.com/rpg-sage-creative/uuid-utils/tar.gz/99060186aafe1d69ce5fc563b8d47ba00e9eb2e6}
-    version: 1.1.0
+  '@rpg-sage-creative/uuid-utils@https://codeload.github.com/rpg-sage-creative/uuid-utils/tar.gz/cc8b1c10283dd594cf30e975ed76f512f293ab32':
+    resolution: {tarball: https://codeload.github.com/rpg-sage-creative/uuid-utils/tar.gz/cc8b1c10283dd594cf30e975ed76f512f293ab32}
+    version: 1.2.0
 
   '@sapphire/snowflake@3.5.5':
     resolution: {integrity: sha512-xzvBr1Q1c4lCe7i6sRnrofxeO1QTP/LKQ6A6qy0iB4x5yfiSfARMEQEghojzTNALDTcv8En04qYNIco9/K9eZQ==}
@@ -395,8 +395,8 @@ packages:
   '@types/jest@30.0.0':
     resolution: {integrity: sha512-XTYugzhuwqWjws0CVz8QpM36+T+Dz5mTEBKhNs/esGLnCIlGdRy+Dq78NRjd7ls7r8BC8ZRMOrKlkO1hU0JOwA==}
 
-  '@types/node@24.10.13':
-    resolution: {integrity: sha512-oH72nZRfDv9lADUBSo104Aq7gPHpQZc4BTx38r9xf9pg5LfP6EzSyH2n7qFmmxRQXh7YlUXODcYsg6PuTDSxGg==}
+  '@types/node@24.11.0':
+    resolution: {integrity: sha512-fPxQqz4VTgPI/IQ+lj9r0h+fDR66bzoeMGHp8ASee+32OSGIkeASsoZuJixsQoVef1QJbeubcPBxKk22QVoWdw==}
 
   '@types/stack-utils@2.0.3':
     resolution: {integrity: sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==}
@@ -572,8 +572,9 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  baseline-browser-mapping@2.9.19:
-    resolution: {integrity: sha512-ipDqC8FrAl/76p2SSWKSI+H9tFwm7vYqXQrItCuiVPt26Km0jS+NzSsBWAaBusvSbQcfJG+JitdMm+wZAgTYqg==}
+  baseline-browser-mapping@2.10.0:
+    resolution: {integrity: sha512-lIyg0szRfYbiy67j9KN8IyeD7q7hcmqnJ1ddWmNt19ItGpNN64mnllmxUNFIOdOm6by97jlL6wfpTTJrmnjWAA==}
+    engines: {node: '>=6.0.0'}
     hasBin: true
 
   brace-expansion@1.1.12:
@@ -609,8 +610,8 @@ packages:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
 
-  caniuse-lite@1.0.30001769:
-    resolution: {integrity: sha512-BCfFL1sHijQlBGWBMuJyhZUhzo7wer5sVj9hqekB/7xn0Ypy+pER/edCYQm4exbXj4WiySGp40P8UuTh6w1srg==}
+  caniuse-lite@1.0.30001775:
+    resolution: {integrity: sha512-s3Qv7Lht9zbVKE9XoTyRG6wVDCKdtOFIjBGg3+Yhn6JaytuNKPIjBMTMIY1AnOH3seL5mvF+x33oGAyK3hVt3A==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -664,8 +665,8 @@ packages:
       supports-color:
         optional: true
 
-  dedent@1.7.1:
-    resolution: {integrity: sha512-9JmrhGZpOlEgOLdQgSm0zxFaYoQon408V1v49aqTWuXENVlnCuY9JBZcXZiCsZQWDjTm5Qf/nIvAy77mXDAjEg==}
+  dedent@1.7.2:
+    resolution: {integrity: sha512-WzMx3mW98SN+zn3hgemf4OzdmyNhhhKz5Ay0pUfQiMQ3e1g+xmTJWp/pKdwKVXhdSkAEGIIzqeuWrL3mV/AXbA==}
     peerDependencies:
       babel-plugin-macros: ^3.1.0
     peerDependenciesMeta:
@@ -683,8 +684,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.286:
-    resolution: {integrity: sha512-9tfDXhJ4RKFNerfjdCcZfufu49vg620741MNs26a9+bhLThdB+plgMeou98CAaHu/WATj2iHOOHTp1hWtABj2A==}
+  electron-to-chromium@1.5.302:
+    resolution: {integrity: sha512-sM6HAN2LyK82IyPBpznDRqlTQAtuSaO+ShzFiWTvoMJLHyZ+Y39r8VMfHzwbU8MVBzQ4Wdn85+wlZl2TLGIlwg==}
 
   emittery@0.13.1:
     resolution: {integrity: sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==}
@@ -1033,15 +1034,15 @@ packages:
     resolution: {integrity: sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==}
     engines: {node: '>=6'}
 
-  minimatch@3.1.2:
-    resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
+  minimatch@3.1.5:
+    resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
 
-  minimatch@9.0.5:
-    resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
+  minimatch@9.0.9:
+    resolution: {integrity: sha512-OBwBN9AL4dqmETlpS2zasx+vTeWclWzkblfZk7KTA5j3jeOONz/tRCnZomUyvNg83wL5Zv9Ss6HMJXAgL8R2Yg==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  minipass@7.1.2:
-    resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
+  minipass@7.1.3:
+    resolution: {integrity: sha512-tEBHqDnIoM/1rXME1zgka9g6Q2lcoCkxHLuc7ODJ5BxbP5d4c2Z5cGgtXAku59200Cx7diuHTOYfSBD8n6mm8A==}
     engines: {node: '>=16 || 14 >=14.17'}
 
   ms@2.1.3:
@@ -1214,8 +1215,8 @@ packages:
     resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
     engines: {node: '>=8'}
 
-  strip-ansi@7.1.2:
-    resolution: {integrity: sha512-gmBGslpoQJtgnMAvOVqGZpEz9dyoKTCzy2nfz/n8aIFhN/jCE/rCmcxabB6jOOHV+0WNnylOxaxBQPSvcWklhA==}
+  strip-ansi@7.2.0:
+    resolution: {integrity: sha512-yDPMNjp4WyfYBkHnjIRLfca1i6KMyGCtsVgoKe/z1+6vukgaENdgGBZt+ZmKPc4gavvEZ5OgHfHdrazhgNyG7w==}
     engines: {node: '>=12'}
 
   strip-bom@4.0.0:
@@ -1280,6 +1281,10 @@ packages:
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
+
+  uuid@13.0.0:
+    resolution: {integrity: sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==}
+    hasBin: true
 
   v8-to-istanbul@9.3.0:
     resolution: {integrity: sha512-kiGUalWN+rgBJ/1OHZsBtU4rXZOfj/7rKQxULKlIzwzQSvMJUUNgPwJEEh7gU6xEVxC0ahoOBvN2YI8GH6FNgA==}
@@ -1538,7 +1543,7 @@ snapshots:
     dependencies:
       string-width: 5.1.2
       string-width-cjs: string-width@4.2.3
-      strip-ansi: 7.1.2
+      strip-ansi: 7.2.0
       strip-ansi-cjs: strip-ansi@6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
@@ -1556,7 +1561,7 @@ snapshots:
   '@jest/console@30.2.0':
     dependencies:
       '@jest/types': 30.2.0
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       chalk: 4.1.2
       jest-message-util: 30.2.0
       jest-util: 30.2.0
@@ -1570,14 +1575,14 @@ snapshots:
       '@jest/test-result': 30.2.0
       '@jest/transform': 30.2.0
       '@jest/types': 30.2.0
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       ci-info: 4.4.0
       exit-x: 0.2.2
       graceful-fs: 4.2.11
       jest-changed-files: 30.2.0
-      jest-config: 30.2.0(@types/node@24.10.13)
+      jest-config: 30.2.0(@types/node@24.11.0)
       jest-haste-map: 30.2.0
       jest-message-util: 30.2.0
       jest-regex-util: 30.0.1
@@ -1604,7 +1609,7 @@ snapshots:
     dependencies:
       '@jest/fake-timers': 30.2.0
       '@jest/types': 30.2.0
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       jest-mock: 30.2.0
 
   '@jest/expect-utils@30.2.0':
@@ -1622,7 +1627,7 @@ snapshots:
     dependencies:
       '@jest/types': 30.2.0
       '@sinonjs/fake-timers': 13.0.5
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       jest-message-util: 30.2.0
       jest-mock: 30.2.0
       jest-util: 30.2.0
@@ -1640,7 +1645,7 @@ snapshots:
 
   '@jest/pattern@30.0.1':
     dependencies:
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       jest-regex-util: 30.0.1
 
   '@jest/reporters@30.2.0':
@@ -1651,7 +1656,7 @@ snapshots:
       '@jest/transform': 30.2.0
       '@jest/types': 30.2.0
       '@jridgewell/trace-mapping': 0.3.31
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       chalk: 4.1.2
       collect-v8-coverage: 1.0.3
       exit-x: 0.2.2
@@ -1728,7 +1733,7 @@ snapshots:
       '@jest/schemas': 30.0.5
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       '@types/yargs': 17.0.35
       chalk: 4.1.2
 
@@ -1763,20 +1768,21 @@ snapshots:
 
   '@pkgr/core@0.2.9': {}
 
-  '@rpg-sage-creative/dev-scripts@https://codeload.github.com/rpg-sage-creative/dev-scripts/tar.gz/21b00c21ef2b591fa125f2460a9122eab7c4e9dc': {}
+  '@rpg-sage-creative/dev-scripts@https://codeload.github.com/rpg-sage-creative/dev-scripts/tar.gz/21ba74dcfd4b8358cc919c534a0b2145b09f1297': {}
 
-  '@rpg-sage-creative/snowflake-utils@https://codeload.github.com/rpg-sage-creative/snowflake-utils/tar.gz/ff6354df8219a872bb672c51b090ec12651f240b':
+  '@rpg-sage-creative/snowflake-utils@https://codeload.github.com/rpg-sage-creative/snowflake-utils/tar.gz/eb4f99a302eb29eb671428f16026e2f25a1993bc':
     dependencies:
-      '@rsc-utils/type-utils': '@rpg-sage-creative/type-utils@https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/320d4c2f18ed43e6e53a8092d8e8715dcd6bbc70'
+      '@rsc-utils/type-utils': '@rpg-sage-creative/type-utils@https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/e3c915cecb5b7fdc792ac026435c540f555fadca'
       '@sapphire/snowflake': 3.5.5
 
   '@rpg-sage-creative/template-literal-utils@https://codeload.github.com/rpg-sage-creative/template-literal-utils/tar.gz/5532b51ff83a9c8c0b38600e0e721a37335b7d50': {}
 
-  '@rpg-sage-creative/type-utils@https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/320d4c2f18ed43e6e53a8092d8e8715dcd6bbc70': {}
+  '@rpg-sage-creative/type-utils@https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/e3c915cecb5b7fdc792ac026435c540f555fadca': {}
 
-  '@rpg-sage-creative/uuid-utils@https://codeload.github.com/rpg-sage-creative/uuid-utils/tar.gz/99060186aafe1d69ce5fc563b8d47ba00e9eb2e6':
+  '@rpg-sage-creative/uuid-utils@https://codeload.github.com/rpg-sage-creative/uuid-utils/tar.gz/cc8b1c10283dd594cf30e975ed76f512f293ab32':
     dependencies:
-      '@rsc-utils/type-utils': '@rpg-sage-creative/type-utils@https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/320d4c2f18ed43e6e53a8092d8e8715dcd6bbc70'
+      '@rsc-utils/type-utils': '@rpg-sage-creative/type-utils@https://codeload.github.com/rpg-sage-creative/type-utils/tar.gz/e3c915cecb5b7fdc792ac026435c540f555fadca'
+      uuid: 13.0.0
 
   '@sapphire/snowflake@3.5.5': {}
 
@@ -1831,7 +1837,7 @@ snapshots:
       expect: 30.2.0
       pretty-format: 30.2.0
 
-  '@types/node@24.10.13':
+  '@types/node@24.11.0':
     dependencies:
       undici-types: 7.16.0
 
@@ -1983,7 +1989,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  baseline-browser-mapping@2.9.19: {}
+  baseline-browser-mapping@2.10.0: {}
 
   brace-expansion@1.1.12:
     dependencies:
@@ -2000,9 +2006,9 @@ snapshots:
 
   browserslist@4.28.1:
     dependencies:
-      baseline-browser-mapping: 2.9.19
-      caniuse-lite: 1.0.30001769
-      electron-to-chromium: 1.5.286
+      baseline-browser-mapping: 2.10.0
+      caniuse-lite: 1.0.30001775
+      electron-to-chromium: 1.5.302
       node-releases: 2.0.27
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
 
@@ -2018,7 +2024,7 @@ snapshots:
 
   camelcase@6.3.0: {}
 
-  caniuse-lite@1.0.30001769: {}
+  caniuse-lite@1.0.30001775: {}
 
   chalk@4.1.2:
     dependencies:
@@ -2061,7 +2067,7 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  dedent@1.7.1: {}
+  dedent@1.7.2: {}
 
   deepmerge@4.3.1: {}
 
@@ -2069,7 +2075,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.286: {}
+  electron-to-chromium@1.5.302: {}
 
   emittery@0.13.1: {}
 
@@ -2147,8 +2153,8 @@ snapshots:
     dependencies:
       foreground-child: 3.3.1
       jackspeak: 3.4.3
-      minimatch: 9.0.5
-      minipass: 7.1.2
+      minimatch: 9.0.9
+      minipass: 7.1.3
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
 
@@ -2157,7 +2163,7 @@ snapshots:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.1.2
+      minimatch: 3.1.5
       once: 1.4.0
       path-is-absolute: 1.0.1
 
@@ -2244,10 +2250,10 @@ snapshots:
       '@jest/expect': 30.2.0
       '@jest/test-result': 30.2.0
       '@jest/types': 30.2.0
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       chalk: 4.1.2
       co: 4.6.0
-      dedent: 1.7.1
+      dedent: 1.7.2
       is-generator-fn: 2.1.0
       jest-each: 30.2.0
       jest-matcher-utils: 30.2.0
@@ -2264,7 +2270,7 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  jest-cli@30.2.0(@types/node@24.10.13):
+  jest-cli@30.2.0(@types/node@24.11.0):
     dependencies:
       '@jest/core': 30.2.0
       '@jest/test-result': 30.2.0
@@ -2272,7 +2278,7 @@ snapshots:
       chalk: 4.1.2
       exit-x: 0.2.2
       import-local: 3.2.0
-      jest-config: 30.2.0(@types/node@24.10.13)
+      jest-config: 30.2.0(@types/node@24.11.0)
       jest-util: 30.2.0
       jest-validate: 30.2.0
       yargs: 17.7.2
@@ -2283,7 +2289,7 @@ snapshots:
       - supports-color
       - ts-node
 
-  jest-config@30.2.0(@types/node@24.10.13):
+  jest-config@30.2.0(@types/node@24.11.0):
     dependencies:
       '@babel/core': 7.29.0
       '@jest/get-type': 30.1.0
@@ -2310,7 +2316,7 @@ snapshots:
       slash: 3.0.0
       strip-json-comments: 3.1.1
     optionalDependencies:
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
@@ -2339,7 +2345,7 @@ snapshots:
       '@jest/environment': 30.2.0
       '@jest/fake-timers': 30.2.0
       '@jest/types': 30.2.0
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       jest-mock: 30.2.0
       jest-util: 30.2.0
       jest-validate: 30.2.0
@@ -2347,7 +2353,7 @@ snapshots:
   jest-haste-map@30.2.0:
     dependencies:
       '@jest/types': 30.2.0
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -2386,7 +2392,7 @@ snapshots:
   jest-mock@30.2.0:
     dependencies:
       '@jest/types': 30.2.0
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       jest-util: 30.2.0
 
   jest-pnp-resolver@1.2.3(jest-resolve@30.2.0):
@@ -2420,7 +2426,7 @@ snapshots:
       '@jest/test-result': 30.2.0
       '@jest/transform': 30.2.0
       '@jest/types': 30.2.0
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       chalk: 4.1.2
       emittery: 0.13.1
       exit-x: 0.2.2
@@ -2449,7 +2455,7 @@ snapshots:
       '@jest/test-result': 30.2.0
       '@jest/transform': 30.2.0
       '@jest/types': 30.2.0
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       chalk: 4.1.2
       cjs-module-lexer: 2.2.0
       collect-v8-coverage: 1.0.3
@@ -2496,7 +2502,7 @@ snapshots:
   jest-util@30.2.0:
     dependencies:
       '@jest/types': 30.2.0
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       chalk: 4.1.2
       ci-info: 4.4.0
       graceful-fs: 4.2.11
@@ -2515,7 +2521,7 @@ snapshots:
     dependencies:
       '@jest/test-result': 30.2.0
       '@jest/types': 30.2.0
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       emittery: 0.13.1
@@ -2524,18 +2530,18 @@ snapshots:
 
   jest-worker@30.2.0:
     dependencies:
-      '@types/node': 24.10.13
+      '@types/node': 24.11.0
       '@ungap/structured-clone': 1.3.0
       jest-util: 30.2.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jest@30.2.0(@types/node@24.10.13):
+  jest@30.2.0(@types/node@24.11.0):
     dependencies:
       '@jest/core': 30.2.0
       '@jest/types': 30.2.0
       import-local: 3.2.0
-      jest-cli: 30.2.0(@types/node@24.10.13)
+      jest-cli: 30.2.0(@types/node@24.11.0)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -2587,15 +2593,15 @@ snapshots:
 
   mimic-fn@2.1.0: {}
 
-  minimatch@3.1.2:
+  minimatch@3.1.5:
     dependencies:
       brace-expansion: 1.1.12
 
-  minimatch@9.0.5:
+  minimatch@9.0.9:
     dependencies:
       brace-expansion: 2.0.2
 
-  minipass@7.1.2: {}
+  minipass@7.1.3: {}
 
   ms@2.1.3: {}
 
@@ -2653,7 +2659,7 @@ snapshots:
   path-scurry@1.11.1:
     dependencies:
       lru-cache: 10.4.3
-      minipass: 7.1.2
+      minipass: 7.1.3
 
   picocolors@1.1.1: {}
 
@@ -2729,13 +2735,13 @@ snapshots:
     dependencies:
       eastasianwidth: 0.2.0
       emoji-regex: 9.2.2
-      strip-ansi: 7.1.2
+      strip-ansi: 7.2.0
 
   strip-ansi@6.0.1:
     dependencies:
       ansi-regex: 5.0.1
 
-  strip-ansi@7.1.2:
+  strip-ansi@7.2.0:
     dependencies:
       ansi-regex: 6.2.2
 
@@ -2761,7 +2767,7 @@ snapshots:
     dependencies:
       '@istanbuljs/schema': 0.1.3
       glob: 7.2.3
-      minimatch: 3.1.2
+      minimatch: 3.1.5
 
   tmpl@1.0.5: {}
 
@@ -2810,6 +2816,8 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
+  uuid@13.0.0: {}
+
   v8-to-istanbul@9.3.0:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
@@ -2834,7 +2842,7 @@ snapshots:
     dependencies:
       ansi-styles: 6.2.3
       string-width: 5.1.2
-      strip-ansi: 7.1.2
+      strip-ansi: 7.2.0
 
   wrappy@1.0.2: {}
 
