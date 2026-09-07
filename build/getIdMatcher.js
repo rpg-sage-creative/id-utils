@@ -1,5 +1,9 @@
 import { isSnowflake, SnowflakeMatcher } from "@rsc-utils/snowflake-utils";
 import { isUuid, UuidMatcher } from "@rsc-utils/uuid-utils";
+/**
+ * Used to create a matcher for an ID.
+ * Creates a matcher that always returns false if the given ID isn't a snowflake or uuid.
+ */
 export function getIdMatcher(value) {
     if (value) {
         if (isSnowflake(value)) {
