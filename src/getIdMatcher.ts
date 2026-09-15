@@ -1,6 +1,8 @@
-import { isSnowflake, SnowflakeMatcher } from "@rsc-utils/snowflake-utils";
 import type { Matcher, Optional } from "@rsc-utils/type-utils";
-import { isUuid, UuidMatcher } from "@rsc-utils/uuid-utils";
+import { isSnowflake } from "./snowflake/isSnowflake.js";
+import { SnowflakeMatcher } from "./snowflake/SnowflakeMatcher.js";
+import { isUuid } from "./uuid/isUuid.js";
+import { UuidMatcher } from "./uuid/UuidMatcher.js";
 
 /**
  * Used to create a matcher for an ID.

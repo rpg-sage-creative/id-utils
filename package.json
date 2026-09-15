@@ -20,9 +20,9 @@
 		"vitest": "^4.1.11"
 	},
 	"dependencies": {
-		"@rsc-utils/snowflake-utils": "github:rpg-sage-creative/snowflake-utils#semver:^1.2.1",
 		"@rsc-utils/type-utils": "github:rpg-sage-creative/type-utils#semver:^1.2.1",
-		"@rsc-utils/uuid-utils": "github:rpg-sage-creative/uuid-utils#semver:^1.2.3"
+		"@sapphire/snowflake": "^3.5.5",
+		"uuid": "^13.0.0"
 	},
 	"scripts": {
 		"scrub": "pnpm run '/^scrub::.*/'",

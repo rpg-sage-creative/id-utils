@@ -1,0 +1,4 @@
+import { type Optional } from "@rsc-utils/type-utils";
+import type { Snowflake } from "./types.js";
+/** Returns true if the value is a series of at least 16 numeric digits. */
+export declare function isSnowflake(value: Optional<string>): value is Snowflake;
